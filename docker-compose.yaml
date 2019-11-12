@@ -1,0 +1,9 @@
+version: '3.1'
+
+services:
+  postgres:
+    image: postgres
+    container_name: traffic_heatmap_db
+    hostname: localhost
+    ports:
+      - "5432:5432"
